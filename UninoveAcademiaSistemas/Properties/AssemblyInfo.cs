@@ -5,10 +5,10 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("UninoveAcademiaSistemas")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Sistemas de Academia Uninove")]
+[assembly: AssemblyDescription("Primeira versão do sistema")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("TADS Uninove")]
 [assembly: AssemblyProduct("UninoveAcademiaSistemas")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
