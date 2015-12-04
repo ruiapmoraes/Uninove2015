@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace UninoveAcademiaSistemas.Formularios.Cadastro
 {
-    public partial class frmFuncionario : Form
+    public partial class frmAlunoPrinc : Form
     {
-        public frmFuncionario()
+        public frmAlunoPrinc()
         {
             InitializeComponent();
-        }
-
-        private void btnCancelar_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }

@@ -33,5 +33,17 @@ namespace UninoveAcademiaSistemas.Formularios.Cadastro
         {
             this.Close();
         }
+
+        private void tsbEditar_Click(object sender, EventArgs e)
+        {
+            frmCargo telaCargo = new frmCargo();
+            telaCargo.ShowDialog();
+            this.Focus();
+        }
+
+        private void tsbDeletar_Click(object sender, EventArgs e)
+        {
+            //TODO: Criar função para excluir registro
+        }
     }
 }

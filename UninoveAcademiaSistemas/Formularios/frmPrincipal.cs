@@ -28,5 +28,11 @@ namespace UninoveAcademiaSistemas.Formularios
         {
             Application.Exit();
         }
+
+        private void funcionárioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmFuncionarioPrinc telaFuncPrinc = new frmFuncionarioPrinc();
+            telaFuncPrinc.ShowDialog();
+        }
     }
 }
