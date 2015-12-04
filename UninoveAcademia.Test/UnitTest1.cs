@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace UninoveAcademia.Test
+namespace UninoveAcademiaSistemas.Test
 {
     [TestClass]
     public class UnitTest1

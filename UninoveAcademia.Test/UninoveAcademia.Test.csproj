@@ -6,7 +6,7 @@
     <ProjectGuid>{A9D80318-D1F9-4B44-BC5D-0154A4AB98BC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UninoveAcademia.Test</RootNamespace>
+    <RootNamespace>UninoveAcademiaSistemas.Test</RootNamespace>
     <AssemblyName>UninoveAcademia.Test</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
