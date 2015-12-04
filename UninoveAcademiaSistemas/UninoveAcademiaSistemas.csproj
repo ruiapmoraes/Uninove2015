@@ -75,6 +75,12 @@
     <Compile Include="Formularios\Cadastro\frmAlunoPrinc.Designer.cs">
       <DependentUpon>frmAlunoPrinc.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Cadastro\frmAulaPrinc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Cadastro\frmAulaPrinc.Designer.cs">
+      <DependentUpon>frmAulaPrinc.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\Cadastro\frmCargo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,6 +122,18 @@
     </Compile>
     <Compile Include="Formularios\Cadastro\frmFuncionarioPrinc.Designer.cs">
       <DependentUpon>frmFuncionarioPrinc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Cadastro\frmSobre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Cadastro\frmSobre.Designer.cs">
+      <DependentUpon>frmSobre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Exercicios\frmMedidas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Exercicios\frmMedidas.Designer.cs">
+      <DependentUpon>frmMedidas.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\frmLogin.cs">
       <SubType>Form</SubType>
@@ -160,6 +178,12 @@
     <EmbeddedResource Include="Formularios\Cadastro\frmAlunoPrinc.resx">
       <DependentUpon>frmAlunoPrinc.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Cadastro\frmAula.resx">
+      <DependentUpon>frmAula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Cadastro\frmAulaPrinc.resx">
+      <DependentUpon>frmAulaPrinc.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Cadastro\frmCargo.resx">
       <DependentUpon>frmCargo.cs</DependentUpon>
     </EmbeddedResource>
@@ -171,6 +195,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Cadastro\frmFuncionarioPrinc.resx">
       <DependentUpon>frmFuncionarioPrinc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Cadastro\frmSobre.resx">
+      <DependentUpon>frmSobre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Exercicios\frmMedidas.resx">
+      <DependentUpon>frmMedidas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>

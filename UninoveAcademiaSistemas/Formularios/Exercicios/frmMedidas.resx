@@ -117,29 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="toolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>132, 17</value>
-  </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="toolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAK6SURBVGhD7ZhLqE1RGMcPeWXkEQN5lFDIO1IoA+qWMjDB
-        RMpEhqSYeGRiosiAFMkARTGSKF0pZKKMhDLwzqO8krffv86/vnb7Xnefe0/r7Fq/+nXa3zrn7G+ts9a3
-        1j6NTCaTyWQ6hCm4Hy/jCdyASRiLuvkpfIAXcRMOwp5Yh5/wb8FrOBLbznw8gPfwNxYTkWpbgkU08mXJ
-        2yPYdvTTl9286B88iePQxM8+wc14LMR+4DBsKyvQN/yFt3A3LsI9+BXdLt/jMhSa844reaHp9hQd1y/c
-        VoaiRnY9jlagwCS8ik5IfsTJqAXrmEZeySv+vRmTEzApS/ENOiF7HTcWYhr5mPxDTIoS/IZOSMlpLfh6
-        K6ra+DqqgqDpWYmVuK8Ft2BEU0HxmNA7VEKqLI59xlnNmBas4xr5ysmL4k37aheaEXgOY/sjnIZCtf0x
-        uu0GClUbLdh+zflWOnAazXC8jbH9Jo5BMxtfY3zPPBwQqk6hvRgrT3FPOIOxji/AtxjfI3dgcqZjrCDq
-        XEQ78QeMiVsNRnLWoBO6okBAG5dqv9u1oC+F6wHrQNUptBbNanRCcV0o+S/oNu0Jc3B7iHVj2fcrn0ro
-        Q/7Svqgbm8Xo+AtUKZX3mzH5EmeiULX5iW4rU/lUomoHNC2GoBiMr9Bty3FuuFblmYGRQ9hbJ4rr6L+0
-        spGNR3MUfXNtTqPCtTat+F6jX0LTqey7K0+h/hJPps9RU0jPAo6pgx2NEtb8d8JawKvCtY4LU7GjiWed
-        wwpAPLCdVaCT0ag72TsKwEL0KVSv2pGT4yR78y6a8+j4BQVSExPtyW1odNRwXI+VyYmJFtUD+k6M6Mjt
-        9uRPWq0Qn4sPKlAndHzwItbOOxFrxXH06Gsx1wo9jcX/hvQvRa3YhU4+ltVaoJPqM3QHkv3rnMlkMplM
-        h9Fo/AMtG3djhiLXNwAAAABJRU5ErkJggg==
-</value>
-  </data>
 </root>
