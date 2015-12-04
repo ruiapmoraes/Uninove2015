@@ -16,5 +16,10 @@ namespace UninoveAcademiaSistemas.Formularios.Cadastro
         {
             InitializeComponent();
         }
+
+        private void tsbFechar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
