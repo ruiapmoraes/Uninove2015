@@ -69,6 +69,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Cadastro\frmCargo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Cadastro\frmCargo.Designer.cs">
+      <DependentUpon>frmCargo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\Cadastro\frmCargoPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,12 +92,6 @@
     </Compile>
     <Compile Include="Formularios\Cadastro\frmAula.Designer.cs">
       <DependentUpon>frmAula.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Formularios\Cadastro\frmCargo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formularios\Cadastro\frmCargo.Designer.cs">
-      <DependentUpon>frmCargo.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\Cadastro\frmFuncAula.cs">
       <SubType>Form</SubType>
@@ -144,11 +144,12 @@
     <Compile Include="Queries\SistemaQueries.Designer.cs" />
     <Compile Include="Util\ADOBase.cs" />
     <Compile Include="Util\Conexao.cs" />
-    <EmbeddedResource Include="Formularios\Cadastro\frmCargoPrincipal.resx">
-      <DependentUpon>frmCargoPrincipal.cs</DependentUpon>
-    </EmbeddedResource>
+    <Compile Include="Util\Validacao.cs" />
     <EmbeddedResource Include="Formularios\Cadastro\frmCargo.resx">
       <DependentUpon>frmCargo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Cadastro\frmCargoPrincipal.resx">
+      <DependentUpon>frmCargoPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
