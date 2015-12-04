@@ -92,6 +92,7 @@
             this.tsbFechar.Name = "tsbFechar";
             this.tsbFechar.Size = new System.Drawing.Size(23, 22);
             this.tsbFechar.Text = "Fechar";
+            this.tsbFechar.Click += new System.EventHandler(this.tsbFechar_Click);
             // 
             // groupBox1
             // 
