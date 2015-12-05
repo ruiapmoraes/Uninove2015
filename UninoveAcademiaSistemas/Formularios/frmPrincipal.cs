@@ -82,5 +82,11 @@ namespace UninoveAcademiaSistemas.Formularios
             frmFichaExerciciosPrinc telaFicha = new frmFichaExerciciosPrinc();
             telaFicha.ShowDialog();
         }
+
+        private void medidasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmMedidasPrinc telaMedidas = new frmMedidasPrinc();
+            telaMedidas.ShowDialog();
+        }
     }
 }

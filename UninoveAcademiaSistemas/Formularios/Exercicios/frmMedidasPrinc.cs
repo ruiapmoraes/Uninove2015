@@ -16,5 +16,11 @@ namespace UninoveAcademiaSistemas.Formularios.Exercicios
         {
             InitializeComponent();
         }
+
+        private void tsbNovo_Click(object sender, EventArgs e)
+        {
+            frmMedidas telaMedidas = new frmMedidas();
+            telaMedidas.ShowDialog();
+        }
     }
 }

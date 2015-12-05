@@ -42,13 +42,13 @@
             this.horárioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.frequênciaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fichaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.relatóriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ajudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sobreToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
-            this.fichaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -139,6 +139,7 @@
             this.medidasToolStripMenuItem.Name = "medidasToolStripMenuItem";
             this.medidasToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.medidasToolStripMenuItem.Text = "Medidas";
+            this.medidasToolStripMenuItem.Click += new System.EventHandler(this.medidasToolStripMenuItem_Click);
             // 
             // horárioToolStripMenuItem
             // 
@@ -159,6 +160,13 @@
             this.frequênciaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.frequênciaToolStripMenuItem.Text = "Frequência";
             this.frequênciaToolStripMenuItem.Click += new System.EventHandler(this.frequênciaToolStripMenuItem_Click);
+            // 
+            // fichaToolStripMenuItem
+            // 
+            this.fichaToolStripMenuItem.Name = "fichaToolStripMenuItem";
+            this.fichaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.fichaToolStripMenuItem.Text = "Ficha";
+            this.fichaToolStripMenuItem.Click += new System.EventHandler(this.fichaToolStripMenuItem_Click);
             // 
             // relatóriosToolStripMenuItem
             // 
@@ -206,13 +214,6 @@
             this.toolStripButton1.Name = "toolStripButton1";
             this.toolStripButton1.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton1.Text = "toolStripButton1";
-            // 
-            // fichaToolStripMenuItem
-            // 
-            this.fichaToolStripMenuItem.Name = "fichaToolStripMenuItem";
-            this.fichaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.fichaToolStripMenuItem.Text = "Ficha";
-            this.fichaToolStripMenuItem.Click += new System.EventHandler(this.fichaToolStripMenuItem_Click);
             // 
             // frmPrincipal
             // 
