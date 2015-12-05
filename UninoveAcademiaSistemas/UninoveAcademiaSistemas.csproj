@@ -183,6 +183,12 @@
     <Compile Include="Formularios\Exercicios\frmMedidas.Designer.cs">
       <DependentUpon>frmMedidas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Exercicios\frmMedidasPrinc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Exercicios\frmMedidasPrinc.Designer.cs">
+      <DependentUpon>frmMedidasPrinc.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -283,6 +289,9 @@
     <EmbeddedResource Include="Formularios\Exercicios\frmMedidas.resx">
       <DependentUpon>frmMedidas.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Exercicios\frmMedidasPrinc.resx">
+      <DependentUpon>frmMedidasPrinc.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -336,10 +345,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Formularios\Cadastro\Aluno\" />
-    <Folder Include="Formularios\Cadastro\Aula\" />
-    <Folder Include="Formularios\Cadastro\Cargo\" />
-    <Folder Include="Formularios\Cadastro\Funcionario\" />
     <Folder Include="Formularios\Relatorios\" />
     <Folder Include="Queries\Delete\" />
     <Folder Include="Queries\Read\" />
