@@ -44,8 +44,7 @@ namespace UninoveAcademiaSistemas.Formularios
 
         private void sobreToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmSobre telaSobre = new frmSobre();
-            telaSobre.ShowDialog();
+            
         }
 
         private void aulaToolStripMenuItem_Click(object sender, EventArgs e)
@@ -64,6 +63,24 @@ namespace UninoveAcademiaSistemas.Formularios
         {
             frmHorarioPrinc telaHorario = new frmHorarioPrinc();
             telaHorario.ShowDialog();
+        }
+
+        private void frequênciaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmFrequenciaPrinc telaFreq = new frmFrequenciaPrinc();
+            telaFreq.ShowDialog();
+        }
+
+        private void sobreToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmSobre telaSobre = new frmSobre();
+            telaSobre.ShowDialog();
+        }
+
+        private void fichaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmFichaExerciciosPrinc telaFicha = new frmFichaExerciciosPrinc();
+            telaFicha.ShowDialog();
         }
     }
 }

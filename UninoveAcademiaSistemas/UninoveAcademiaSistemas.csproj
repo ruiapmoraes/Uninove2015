@@ -129,6 +129,18 @@
     <Compile Include="Formularios\Cadastro\frmSobre.Designer.cs">
       <DependentUpon>frmSobre.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Exercicios\frmFichaExercicios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Exercicios\frmFichaExercicios.Designer.cs">
+      <DependentUpon>frmFichaExercicios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Exercicios\frmFichaExerciciosPrinc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Exercicios\frmFichaExerciciosPrinc.Designer.cs">
+      <DependentUpon>frmFichaExerciciosPrinc.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\Exercicios\frmFrequencia.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -243,6 +255,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Cadastro\frmSobre.resx">
       <DependentUpon>frmSobre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Exercicios\frmFichaExercicios.resx">
+      <DependentUpon>frmFichaExercicios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Exercicios\frmFichaExerciciosPrinc.resx">
+      <DependentUpon>frmFichaExerciciosPrinc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Exercicios\frmFrequencia.resx">
       <DependentUpon>frmFrequencia.cs</DependentUpon>

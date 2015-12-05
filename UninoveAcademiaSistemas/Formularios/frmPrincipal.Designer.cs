@@ -41,12 +41,14 @@
             this.medidasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.horárioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.frequênciaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.relatóriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sobreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ajudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sobreToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
+            this.fichaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -58,7 +60,6 @@
             this.cadastroToolStripMenuItem,
             this.exercíciosToolStripMenuItem,
             this.relatóriosToolStripMenuItem,
-            this.sobreToolStripMenuItem,
             this.ajudaToolStripMenuItem,
             this.sairToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
@@ -87,21 +88,21 @@
             // cargoToolStripMenuItem
             // 
             this.cargoToolStripMenuItem.Name = "cargoToolStripMenuItem";
-            this.cargoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.cargoToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.cargoToolStripMenuItem.Text = "Cargo";
             this.cargoToolStripMenuItem.Click += new System.EventHandler(this.cargoToolStripMenuItem_Click);
             // 
             // funcionárioToolStripMenuItem
             // 
             this.funcionárioToolStripMenuItem.Name = "funcionárioToolStripMenuItem";
-            this.funcionárioToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.funcionárioToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.funcionárioToolStripMenuItem.Text = "Funcionário";
             this.funcionárioToolStripMenuItem.Click += new System.EventHandler(this.funcionárioToolStripMenuItem_Click);
             // 
             // alunoToolStripMenuItem
             // 
             this.alunoToolStripMenuItem.Name = "alunoToolStripMenuItem";
-            this.alunoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.alunoToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.alunoToolStripMenuItem.Text = "Aluno";
             this.alunoToolStripMenuItem.Click += new System.EventHandler(this.alunoToolStripMenuItem_Click);
             // 
@@ -110,7 +111,7 @@
             this.aulaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.aulaDosInstrutoresToolStripMenuItem});
             this.aulaToolStripMenuItem.Name = "aulaToolStripMenuItem";
-            this.aulaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.aulaToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.aulaToolStripMenuItem.Text = "Aula";
             this.aulaToolStripMenuItem.Click += new System.EventHandler(this.aulaToolStripMenuItem_Click);
             // 
@@ -126,7 +127,9 @@
             this.exercíciosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.medidasToolStripMenuItem,
             this.horárioToolStripMenuItem,
-            this.toolStripMenuItem1});
+            this.toolStripMenuItem1,
+            this.frequênciaToolStripMenuItem,
+            this.fichaToolStripMenuItem});
             this.exercíciosToolStripMenuItem.Name = "exercíciosToolStripMenuItem";
             this.exercíciosToolStripMenuItem.Size = new System.Drawing.Size(70, 20);
             this.exercíciosToolStripMenuItem.Text = "Exercícios";
@@ -150,24 +153,33 @@
             this.toolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
             this.toolStripMenuItem1.Text = "Aula";
             // 
+            // frequênciaToolStripMenuItem
+            // 
+            this.frequênciaToolStripMenuItem.Name = "frequênciaToolStripMenuItem";
+            this.frequênciaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.frequênciaToolStripMenuItem.Text = "Frequência";
+            this.frequênciaToolStripMenuItem.Click += new System.EventHandler(this.frequênciaToolStripMenuItem_Click);
+            // 
             // relatóriosToolStripMenuItem
             // 
             this.relatóriosToolStripMenuItem.Name = "relatóriosToolStripMenuItem";
             this.relatóriosToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
             this.relatóriosToolStripMenuItem.Text = "Relatórios";
             // 
-            // sobreToolStripMenuItem
-            // 
-            this.sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
-            this.sobreToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
-            this.sobreToolStripMenuItem.Text = "Sobre";
-            this.sobreToolStripMenuItem.Click += new System.EventHandler(this.sobreToolStripMenuItem_Click);
-            // 
             // ajudaToolStripMenuItem
             // 
+            this.ajudaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.sobreToolStripMenuItem1});
             this.ajudaToolStripMenuItem.Name = "ajudaToolStripMenuItem";
             this.ajudaToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
             this.ajudaToolStripMenuItem.Text = "Ajuda";
+            // 
+            // sobreToolStripMenuItem1
+            // 
+            this.sobreToolStripMenuItem1.Name = "sobreToolStripMenuItem1";
+            this.sobreToolStripMenuItem1.Size = new System.Drawing.Size(104, 22);
+            this.sobreToolStripMenuItem1.Text = "Sobre";
+            this.sobreToolStripMenuItem1.Click += new System.EventHandler(this.sobreToolStripMenuItem1_Click);
             // 
             // sairToolStripMenuItem
             // 
@@ -194,6 +206,13 @@
             this.toolStripButton1.Name = "toolStripButton1";
             this.toolStripButton1.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton1.Text = "toolStripButton1";
+            // 
+            // fichaToolStripMenuItem
+            // 
+            this.fichaToolStripMenuItem.Name = "fichaToolStripMenuItem";
+            this.fichaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.fichaToolStripMenuItem.Text = "Ficha";
+            this.fichaToolStripMenuItem.Click += new System.EventHandler(this.fichaToolStripMenuItem_Click);
             // 
             // frmPrincipal
             // 
@@ -223,7 +242,6 @@
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripMenuItem cadastroToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem relatóriosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem sobreToolStripMenuItem;
         private System.Windows.Forms.ToolStripButton toolStripButton1;
         private System.Windows.Forms.ToolStripMenuItem cargoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ajudaToolStripMenuItem;
@@ -236,5 +254,8 @@
         private System.Windows.Forms.ToolStripMenuItem horárioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem aulaDosInstrutoresToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem frequênciaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sobreToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem fichaToolStripMenuItem;
     }
 }
