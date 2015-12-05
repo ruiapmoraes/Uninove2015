@@ -16,5 +16,11 @@ namespace UninoveAcademiaSistemas.Formularios.Exercicios
         {
             InitializeComponent();
         }
+
+        private void tsbNovo_Click(object sender, EventArgs e)
+        {
+            frmFrequencia telaFreq = new frmFrequencia();
+            telaFreq.ShowDialog();
+        }
     }
 }

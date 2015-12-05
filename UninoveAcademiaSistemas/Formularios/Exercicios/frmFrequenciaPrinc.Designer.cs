@@ -37,7 +37,10 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dgvCargo = new System.Windows.Forms.DataGridView();
             this.CdAula = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NomeAula = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CdAluno = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.DataHora = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.toolStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCargo)).BeginInit();
@@ -52,7 +55,7 @@
             this.tsbFechar});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(481, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(475, 25);
             this.toolStrip1.TabIndex = 4;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -64,6 +67,7 @@
             this.tsbNovo.Name = "tsbNovo";
             this.tsbNovo.Size = new System.Drawing.Size(23, 22);
             this.tsbNovo.Text = "Novo";
+            this.tsbNovo.Click += new System.EventHandler(this.tsbNovo_Click);
             // 
             // tsbEditar
             // 
@@ -95,7 +99,7 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.dgvCargo);
-            this.groupBox1.Location = new System.Drawing.Point(10, 111);
+            this.groupBox1.Location = new System.Drawing.Point(10, 71);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(459, 228);
             this.groupBox1.TabIndex = 5;
@@ -107,7 +111,8 @@
             this.dgvCargo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvCargo.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.CdAula,
-            this.NomeAula});
+            this.CdAluno,
+            this.DataHora});
             this.dgvCargo.Location = new System.Drawing.Point(7, 20);
             this.dgvCargo.Name = "dgvCargo";
             this.dgvCargo.ReadOnly = true;
@@ -120,18 +125,42 @@
             this.CdAula.Name = "CdAula";
             this.CdAula.ReadOnly = true;
             // 
-            // NomeAula
+            // CdAluno
             // 
-            this.NomeAula.HeaderText = "Aula";
-            this.NomeAula.Name = "NomeAula";
-            this.NomeAula.ReadOnly = true;
-            this.NomeAula.Width = 300;
+            this.CdAluno.HeaderText = "Aluno";
+            this.CdAluno.Name = "CdAluno";
+            this.CdAluno.ReadOnly = true;
+            // 
+            // DataHora
+            // 
+            this.DataHora.HeaderText = "Data";
+            this.DataHora.Name = "DataHora";
+            this.DataHora.ReadOnly = true;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(73, 32);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(162, 21);
+            this.comboBox1.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(14, 35);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(37, 13);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Aluno:";
             // 
             // frmFrequenciaPrinc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(481, 351);
+            this.ClientSize = new System.Drawing.Size(475, 312);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmFrequenciaPrinc";
@@ -155,6 +184,9 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.DataGridView dgvCargo;
         private System.Windows.Forms.DataGridViewTextBoxColumn CdAula;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NomeAula;
+        private System.Windows.Forms.DataGridViewComboBoxColumn CdAluno;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DataHora;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label1;
     }
 }
