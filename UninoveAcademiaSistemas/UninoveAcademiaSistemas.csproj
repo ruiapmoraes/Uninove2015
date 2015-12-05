@@ -105,11 +105,11 @@
     <Compile Include="Formularios\Cadastro\frmAula.Designer.cs">
       <DependentUpon>frmAula.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\Cadastro\frmFuncAula.cs">
+    <Compile Include="Formularios\Cadastro\frmFuncAulaPrinc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\Cadastro\frmFuncAula.Designer.cs">
-      <DependentUpon>frmFuncAula.cs</DependentUpon>
+    <Compile Include="Formularios\Cadastro\frmFuncAulaPrinc.Designer.cs">
+      <DependentUpon>frmFuncAulaPrinc.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\Cadastro\frmFuncionario.cs">
       <SubType>Form</SubType>
@@ -159,6 +159,12 @@
     <Compile Include="Formularios\frmPrincipal.Designer.cs">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Cadastro\frmFuncAula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Cadastro\frmFuncAula.Designer.cs">
+      <DependentUpon>frmFuncAula.cs</DependentUpon>
+    </Compile>
     <Compile Include="Imagens\UninoveIcones.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -202,6 +208,9 @@
     <EmbeddedResource Include="Formularios\Cadastro\frmCargoPrincipal.resx">
       <DependentUpon>frmCargoPrincipal.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Cadastro\frmFuncAulaPrinc.resx">
+      <DependentUpon>frmFuncAulaPrinc.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Cadastro\frmFuncionario.resx">
       <DependentUpon>frmFuncionario.cs</DependentUpon>
     </EmbeddedResource>
@@ -225,6 +234,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frmPrincipal.resx">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Cadastro\frmFuncAula.resx">
+      <DependentUpon>frmFuncAula.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Imagens\UninoveIcones.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>

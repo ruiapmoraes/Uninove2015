@@ -52,5 +52,11 @@ namespace UninoveAcademiaSistemas.Formularios
             frmAulaPrinc telaAula = new frmAulaPrinc();
             telaAula.ShowDialog();
         }
+
+        private void aulaDosInstrutoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmFuncAulaPrinc telaFuncAula = new frmFuncAulaPrinc();
+            telaFuncAula.ShowDialog();
+        }
     }
 }

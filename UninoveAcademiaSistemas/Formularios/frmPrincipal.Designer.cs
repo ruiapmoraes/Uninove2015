@@ -46,6 +46,7 @@
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
+            this.aulaDosInstrutoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -106,6 +107,8 @@
             // 
             // aulaToolStripMenuItem
             // 
+            this.aulaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.aulaDosInstrutoresToolStripMenuItem});
             this.aulaToolStripMenuItem.Name = "aulaToolStripMenuItem";
             this.aulaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.aulaToolStripMenuItem.Text = "Aula";
@@ -184,6 +187,13 @@
             this.toolStripButton1.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton1.Text = "toolStripButton1";
             // 
+            // aulaDosInstrutoresToolStripMenuItem
+            // 
+            this.aulaDosInstrutoresToolStripMenuItem.Name = "aulaDosInstrutoresToolStripMenuItem";
+            this.aulaDosInstrutoresToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
+            this.aulaDosInstrutoresToolStripMenuItem.Text = "Aula dos Instrutores";
+            this.aulaDosInstrutoresToolStripMenuItem.Click += new System.EventHandler(this.aulaDosInstrutoresToolStripMenuItem_Click);
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -224,5 +234,6 @@
         private System.Windows.Forms.ToolStripMenuItem medidasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem horárioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem aulaDosInstrutoresToolStripMenuItem;
     }
 }
