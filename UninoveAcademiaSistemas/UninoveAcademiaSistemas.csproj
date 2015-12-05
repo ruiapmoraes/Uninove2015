@@ -141,6 +141,18 @@
     <Compile Include="Formularios\Exercicios\frmFrequenciaPrinc.Designer.cs">
       <DependentUpon>frmFrequenciaPrinc.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Exercicios\frmHorario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Exercicios\frmHorario.Designer.cs">
+      <DependentUpon>frmHorario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Exercicios\frmHorarioPrinc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Exercicios\frmHorarioPrinc.Designer.cs">
+      <DependentUpon>frmHorarioPrinc.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\Exercicios\frmMedidas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -225,6 +237,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Exercicios\frmFrequenciaPrinc.resx">
       <DependentUpon>frmFrequenciaPrinc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Exercicios\frmHorario.resx">
+      <DependentUpon>frmHorario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Exercicios\frmHorarioPrinc.resx">
+      <DependentUpon>frmHorarioPrinc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Exercicios\frmMedidas.resx">
       <DependentUpon>frmMedidas.cs</DependentUpon>
