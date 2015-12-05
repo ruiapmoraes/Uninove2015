@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using UninoveAcademiaSistemas.Formularios.Cadastro;
+using UninoveAcademiaSistemas.Formularios.Exercicios;
 
 namespace UninoveAcademiaSistemas.Formularios
 {
@@ -57,6 +58,12 @@ namespace UninoveAcademiaSistemas.Formularios
         {
             frmFuncAulaPrinc telaFuncAula = new frmFuncAulaPrinc();
             telaFuncAula.ShowDialog();
+        }
+
+        private void horárioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmHorarioPrinc telaHorario = new frmHorarioPrinc();
+            telaHorario.ShowDialog();
         }
     }
 }

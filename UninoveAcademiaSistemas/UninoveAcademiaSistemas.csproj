@@ -141,6 +141,18 @@
     <Compile Include="Formularios\Exercicios\frmFrequenciaPrinc.Designer.cs">
       <DependentUpon>frmFrequenciaPrinc.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Exercicios\frmHoraAula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Exercicios\frmHoraAula.Designer.cs">
+      <DependentUpon>frmHoraAula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Exercicios\frmHoraAulaPrinc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Exercicios\frmHoraAulaPrinc.Designer.cs">
+      <DependentUpon>frmHoraAulaPrinc.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\Exercicios\frmHorario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -237,6 +249,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Exercicios\frmFrequenciaPrinc.resx">
       <DependentUpon>frmFrequenciaPrinc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Exercicios\frmHoraAula.resx">
+      <DependentUpon>frmHoraAula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Exercicios\frmHoraAulaPrinc.resx">
+      <DependentUpon>frmHoraAulaPrinc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Exercicios\frmHorario.resx">
       <DependentUpon>frmHorario.cs</DependentUpon>

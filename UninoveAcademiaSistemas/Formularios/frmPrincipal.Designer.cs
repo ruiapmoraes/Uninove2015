@@ -36,6 +36,7 @@
             this.funcionárioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.alunoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aulaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aulaDosInstrutoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exercíciosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.medidasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.horárioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -46,7 +47,6 @@
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
-            this.aulaDosInstrutoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -114,6 +114,13 @@
             this.aulaToolStripMenuItem.Text = "Aula";
             this.aulaToolStripMenuItem.Click += new System.EventHandler(this.aulaToolStripMenuItem_Click);
             // 
+            // aulaDosInstrutoresToolStripMenuItem
+            // 
+            this.aulaDosInstrutoresToolStripMenuItem.Name = "aulaDosInstrutoresToolStripMenuItem";
+            this.aulaDosInstrutoresToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
+            this.aulaDosInstrutoresToolStripMenuItem.Text = "Aula dos Instrutores";
+            this.aulaDosInstrutoresToolStripMenuItem.Click += new System.EventHandler(this.aulaDosInstrutoresToolStripMenuItem_Click);
+            // 
             // exercíciosToolStripMenuItem
             // 
             this.exercíciosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -127,19 +134,20 @@
             // medidasToolStripMenuItem
             // 
             this.medidasToolStripMenuItem.Name = "medidasToolStripMenuItem";
-            this.medidasToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
+            this.medidasToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.medidasToolStripMenuItem.Text = "Medidas";
             // 
             // horárioToolStripMenuItem
             // 
             this.horárioToolStripMenuItem.Name = "horárioToolStripMenuItem";
-            this.horárioToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
+            this.horárioToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.horárioToolStripMenuItem.Text = "Horário";
+            this.horárioToolStripMenuItem.Click += new System.EventHandler(this.horárioToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(119, 22);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
             this.toolStripMenuItem1.Text = "Aula";
             // 
             // relatóriosToolStripMenuItem
@@ -186,13 +194,6 @@
             this.toolStripButton1.Name = "toolStripButton1";
             this.toolStripButton1.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton1.Text = "toolStripButton1";
-            // 
-            // aulaDosInstrutoresToolStripMenuItem
-            // 
-            this.aulaDosInstrutoresToolStripMenuItem.Name = "aulaDosInstrutoresToolStripMenuItem";
-            this.aulaDosInstrutoresToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
-            this.aulaDosInstrutoresToolStripMenuItem.Text = "Aula dos Instrutores";
-            this.aulaDosInstrutoresToolStripMenuItem.Click += new System.EventHandler(this.aulaDosInstrutoresToolStripMenuItem_Click);
             // 
             // frmPrincipal
             // 
