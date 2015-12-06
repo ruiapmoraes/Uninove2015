@@ -72,5 +72,18 @@ namespace UninoveAcademiaSistemas.Queries.Read {
                 return ResourceManager.GetString("qConsultaCargo", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to -- Consultar usuário e senha
+        ///SELECT Usuario, Senha
+        ///	From Login
+        ///Where Usuario = &apos;{0}&apos;
+        ///And Senha = &apos;{1}&apos;.
+        /// </summary>
+        public static string qLogin {
+            get {
+                return ResourceManager.GetString("qLogin", resourceCulture);
+            }
+        }
     }
 }

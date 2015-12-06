@@ -27,7 +27,7 @@ namespace UninoveAcademiaSistemas.ADO
             return bRet;
         }
 
-        public bool ConsultaCargo()
+        public bool ConsultaCargoOld()
         {
             bool bRet = false;
             DataTable dtCargo = null;
@@ -47,6 +47,28 @@ namespace UninoveAcademiaSistemas.ADO
 
             //TODO ajustar o retorno do método
             return bRet;
+        }
+
+        public DataTable ConsultaCargo()
+        {
+            bool bRet = false;
+            DataTable dtCargo = null;
+            string query = UninoveAcademiaSistemas.Queries.Read.SistemasQueriesConsulta.qConsultaCargo;
+
+            try
+            {
+                conn = Conexao.ObterConexao();
+                dtCargo = RealizaPesquisaSQL(query, conn);
+
+            }
+            catch (Exception ex)
+            {
+                dtCargo = null;
+                throw ex;
+            }
+
+            //TODO ajustar o retorno do método
+            return dtCargo;
         }
     }
 }

@@ -7,7 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using UninoveAcademiaSistemas.ADO;
+//using UninoveAcademiaSistemas.ADO;
+using UninoveAcademiaSistemas.Negocio;
 
 namespace UninoveAcademiaSistemas.Formularios.Cadastro
 {
@@ -50,8 +51,20 @@ namespace UninoveAcademiaSistemas.Formularios.Cadastro
 
         private void frmCargoPrincipal_Load(object sender, EventArgs e)
         {
-            CargoADO objCargoADO = new CargoADO();
-            objCargoADO.ConsultaCargo();
+            DataTable dtLocal = null;
+            //CargoADO objCargoADO = new CargoADO();
+            //objCargoADO.ConsultaCargo();
+            dgvCargo.DataSource = dtCargoGeral();
+        }
+
+        private DataTable dtCargoGeral()
+        {
+            DataTable dtCargoLocal = new DataTable();
+            CargoBO objCargo = new CargoBO();
+            dtCargoLocal = objCargo.ObterCargo();
+
+            //TODO: Obter Cargo geral
+            return dtCargoLocal;
         }
     }
 }
