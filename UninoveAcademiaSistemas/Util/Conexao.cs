@@ -15,8 +15,9 @@ namespace UninoveAcademiaSistemas.Util
 
             public static string ObterConexao()
             {
-                return ConfigurationManager.ConnectionStrings["UninoveAcademiaDB"].ConnectionString;
+                //return ConfigurationManager.ConnectionStrings["UninoveAcademiaDB"].ConnectionString;
                 //return ConfigurationManager.ConnectionStrings["AcademiaUninoveConnectionString"].ConnectionString;
+                return ConfigurationManager.ConnectionStrings["UninoveAcademiaConn"].ConnectionString;
             }
 
         

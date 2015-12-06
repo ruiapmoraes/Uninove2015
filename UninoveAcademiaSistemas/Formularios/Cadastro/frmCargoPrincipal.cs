@@ -25,6 +25,7 @@ namespace UninoveAcademiaSistemas.Formularios.Cadastro
         private void tsbNovo_Click(object sender, EventArgs e)
         {
             frmCargo telaCargo = new frmCargo();
+            //telaCargo.MdiChildActivate = this;          
             telaCargo.ShowDialog();
             this.Focus();
         }

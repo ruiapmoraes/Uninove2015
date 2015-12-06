@@ -22,7 +22,8 @@ namespace UninoveAcademiaSistemas.Formularios
         private void cargoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmCargoPrincipal telaCargoPrin = new frmCargoPrincipal();
-            telaCargoPrin.ShowDialog();
+            telaCargoPrin.MdiParent = this;
+            telaCargoPrin.Show();
         }
 
         private void sairToolStripMenuItem_Click(object sender, EventArgs e)
