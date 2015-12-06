@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using UninoveAcademiaSistemas.ADO;
 
 namespace UninoveAcademiaSistemas.Formularios.Cadastro
 {
@@ -45,6 +46,12 @@ namespace UninoveAcademiaSistemas.Formularios.Cadastro
         private void tsbDeletar_Click(object sender, EventArgs e)
         {
             //TODO: Criar função para excluir registro
+        }
+
+        private void frmCargoPrincipal_Load(object sender, EventArgs e)
+        {
+            CargoADO objCargoADO = new CargoADO();
+            objCargoADO.ConsultaCargo();
         }
     }
 }

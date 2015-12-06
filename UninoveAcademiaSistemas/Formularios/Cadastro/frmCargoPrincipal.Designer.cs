@@ -141,6 +141,7 @@
             this.Name = "frmCargoPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro de Cargos";
+            this.Load += new System.EventHandler(this.frmCargoPrincipal_Load);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
