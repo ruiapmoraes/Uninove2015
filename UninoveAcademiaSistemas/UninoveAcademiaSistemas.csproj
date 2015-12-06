@@ -365,6 +365,7 @@
     <Content Include="Queries\Create\qInsertCargo.sql" />
     <Content Include="Queries\qLogin.sql" />
     <Content Include="Queries\Read\qConsultaCargo.sql" />
+    <Content Include="Scripts\CriarDatabaseUninove.sql" />
     <None Include="Resources\ZIP-48.png" />
     <None Include="Resources\XML-48.png" />
     <None Include="Resources\XLS-48.png" />
